@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Reparación y Programación de Computadoras Automotrices (ECU)</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f9fa; margin: 0; color: #222;}
+    header { background: #223364; color: #fff; text-align: center; padding: 40px 10px 20px 10px; }
+    h1 { font-size: 2.3em; margin-bottom: 0.5em;}
+    h2 { color: #223364; margin-top: 0;}
+    .container { max-width: 720px; margin: 30px auto; background: #fff; border-radius: 14px; box-shadow: 0 3px 16px #0001; padding: 30px; }
+    .info { font-size: 1.1em; margin-bottom: 24px;}
+    .financiamiento { background: #eaf0fc; border-left: 5px solid #223364; padding: 18px; border-radius: 10px; margin-bottom: 25px;}
+    ul { margin-top: 8px;}
+    .incluye { background: #fff3cd; border-left: 5px solid #ffe066; padding: 14px; border-radius: 8px; margin-bottom: 22px;}
+    .destacado { color: #1946b0; font-weight: bold; }
+    .btn { display: inline-block; margin: 18px 0; padding: 14px 32px; font-size: 1.1em; background: #223364; color: #fff; border-radius: 24px; text-decoration: none; font-weight: bold; transition: background 0.2s; }
+    .btn:hover { background: #264bb7; }
+    .datos { background: #f0f4fa; border-radius: 9px; padding: 10px 18px; margin-bottom: 16px;}
+    .whatsapp { color: #25d366; font-weight: bold;}
+    .aviso { font-size: 1.07em; color: #b90000; font-weight: bold; }
+    .operadores { background: #e0ebfc; border-radius: 8px; padding: 10px 20px; margin: 20px 0 16px 0; font-weight: bold; color: #223364; text-align: center;}
+    footer { background: #223364; color: #fff; text-align: center; padding: 16px 0; margin-top: 35px; }
+    @media (max-width: 600px) { .container { padding: 14px; } h1 { font-size: 1.3em; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Curso: Reparación y Programación de Computadoras Automotrices (ECU)</h1>
+    <p class="destacado">¡Separa tu cupo y fórmate en uno de los rubros más demandados!</p>
+  </header>
+
+  <div class="container">
+    <div class="datos">
+      <p><b>📅 Inicio:</b> Martes 17 de junio</p>
+      <p><b>🕕 Horario:</b> 6:00 p.m. a 9:00 p.m.</p>
+      <p><b>📚 Duración:</b> 8 clases presenciales</p>
+      <p><b>📌 Día de clases:</b> Todos los martes</p>
+    </div>
+
+    <div class="info">
+      <p><span class="destacado">💵 Inversión Total:</span> <b>$620.00</b></p>
+      <div class="financiamiento">
+        <b>Plan de Financiamiento:</b>
+        <ul>
+          <li>🔹 Inscripción: <b>$160.00</b></li>
+          <li>🔹 Cuota inicial: <b>$160.00</b> (se paga el primer día de clases)</li>
+          <li>🔹 Cuotas quincenales: <b>2 pagos de $150.00</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info">
+      <p><b>🔧 Método de Aprendizaje:</b></p>
+      <ul>
+        <li>✅ 90% Práctico</li>
+        <li>✅ 10% Teórico</li>
+      </ul>
+    </div>
+
+    <div class="incluye">
+      <p><b>🎁 Incluye:</b></p>
+      <ul>
+        <li>Kit de bienvenida con insumos</li>
+        <li>Certificado oficial al finalizar el curso</li>
+      </ul>
+    </div>
+
+    <p class="aviso">📍 Cupos limitados. ¡No te quedes por fuera!</p>
+    <a href="#inscripcion" class="btn">¡Quiero Inscribirme!</a>
+
+    <div class="operadores">
+      <span>Operadores del curso: <br> Mirella Ruis &nbsp;|&nbsp; Juan Manuel Ramírez</span>
+    </div>
+
+    <hr style="margin:32px 0;">
+
+    <h2 id="inscripcion">¿Listo para inscribirte?</h2>
+    <p>Escríbenos para más información o para asegurar tu inscripción:</p>
+    <form>
+      <input type="text" placeholder="Tu nombre" required style="width:90%;padding:8px;margin:8px 0;">
+      <br>
+      <input type="email" placeholder="Tu email" required style="width:90%;padding:8px;margin:8px 0;">
+      <br>
+      <textarea placeholder="Mensaje o pregunta" required style="width:90%;padding:8px;margin:8px 0;height:60px"></textarea>
+      <br>
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+    <p style="margin-top:18px;">O escríbenos directo a WhatsApp: <span class="whatsapp">+507 6000-0000</span></p>
+  </div>
+
+  <footer>
+    &copy; 2025 Academia de Sistemas & Reparaciones | Todos los derechos reservados.
+  </footer>
+</body>
+</html>
